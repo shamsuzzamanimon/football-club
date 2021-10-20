@@ -23,25 +23,72 @@ html,body{
 .flex{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
-.header{
-    background-color: #10437A;
-    height: 100px;
+header{
+    background-color: #2D25A0;
     color: #fff;
+
 }
 
-.header ul{
-    
+nav{
+    height: 100px;
 }
 
-.header ul li{
-    
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li> a{
+    color: #fff;
+    font-size: 18px;
 }
 
 a{
     text-decoration: none;
+}
+
+.menu-btn{
+    margin-left: auto;
+}
+
+button.btn{
+    padding: 10px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: rgb(214, 8, 180);
+}
+
+button.btn:hover{
+    background-color: rgb(231, 60, 203);
+
+}
+
+button.btn> a{
     color: #fff;
 }
 
+.banner{
+    padding: 70px 0;
+}
+
+.banner> div{
+    width: 50%;
+}
+
+.banner h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    /* color: #fff; */
+}
+
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
